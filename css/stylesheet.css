@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&family=Staatliches&display=swap');
+
+body {
+    background-image:url(https://img.freepik.com/free-photo/view-white-crumpled-paper_1194-7544.jpg?w=2000&t=st=1695135678~exp=1695136278~hmac=eb2b1dd97f6ace87909458ef955b9ea9cc23dddc871f4d208a63d9d9d2f6e7b5);
+    background-repeat: no;
+    background-attachment: fixed;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    width: 400px;
+    position: fixed;
+    top:10px;
+    left: 25px;
+    font-family:'Staatliches', cursive;
+}
+
+nav {
+    background-color:rgb(176, 83, 252);
+    width: 400px;
+    position: fixed;
+    top:350px;
+    left:25px;
+    font-family: 'Staatliches', cursive;
+}
+
+main {
+    width: 650px;
+    margin-left: 500px;
+}
+
+section {
+    background-color:rgb(176, 83, 252,.7);
+    margin-top: 25px;
+    padding: 25px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+section img {
+    display: block;
+    margin:auto
+}
+
+section p {
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+    color:black ;
+}
+
+section video {
+    display: block;
+    margin:auto
+}
+
+footer {
+    background-color: rgb(228, 24, 153);
+    width: 400px;
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    font-family: 'Chivo Mono', monospace;
+}
+
+#splashgif {
+    width: 525px;
+    margin:auto;
+    text-align: center;
+    margin-top: 15%;
+}
+
+#splashgif:hover {
+   transform:scale(1.5);
+}
+
+.box:hover{
+    box-shadow:0px 10px 20px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
