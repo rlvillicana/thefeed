@@ -17,12 +17,14 @@ header {
 }
 
 nav {
-    background-color:rgb(176, 83, 252);
+    background-color:rgb(197, 49, 255, .8);
+    border-radius: 15px;
     width: 400px;
     position: fixed;
     top:350px;
     left:25px;
     font-family: 'Staatliches', cursive;
+    text-align: center;
 }
 
 main {
@@ -46,7 +48,7 @@ section img {
 section p {
     text-align: center;
     font-family: 'Antonio', sans-serif;
-    color:rgb(188, 129, 237) ;
+    color:rgb(223, 144, 255) ;
 }
 
 section video {
@@ -55,7 +57,7 @@ section video {
 }
 
 footer {
-    background-color: rgb(228, 24, 153);
+    background-color:rgb(197, 49, 255);
     width: 400px;
     position: fixed;
     bottom: 25px;
